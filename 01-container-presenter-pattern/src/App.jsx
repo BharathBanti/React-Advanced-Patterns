@@ -1,12 +1,13 @@
 // Container Presenter Pattern or Smart-Dumb component pattern
 
 import UserProfile from "./without-pattern/UserProfile";
-import './App.css';
+import UserProfileContainer from "./with-pattern/containers/UserProfileContainer";
 
 function App() {
   return (
     <>
-      <UserProfile/>
+      {/* <UserProfile /> */}
+      <UserProfileContainer/>
     </>
   );
 }

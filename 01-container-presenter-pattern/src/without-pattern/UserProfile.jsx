@@ -1,7 +1,8 @@
+import './UserProfile.css';
 import { useEffect, useState } from 'react';
 
 function UserProfile() {
-  const [userId, setUserId] = useState(null);
+  const [userId, setUserId] = useState('');
   const [userData, setUserData] = useState({});
   const [userPosts, setUserPosts] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -146,9 +147,11 @@ function UserProfile() {
                   <span>Following: {userData.following}</span>
                 </div>
 
-                <a href={userData.website} className="profile-link">
-                  Personal website
-                </a>
+                <p>
+                  <a href={userData.website} className="profile-link">
+                    Personal website
+                  </a>
+                </p>
 
                 <button
                   className="edit-btn"
@@ -192,8 +195,3 @@ function UserProfile() {
 }
 
 export default UserProfile;
-
-// For Professional React, we should avoid the following in the above code
-// 1. Biggest Issue: Everything is in ONE component
-// 2. Move API Calls to a Service Layer
-// 3. Extract Custom Hooks

@@ -2,7 +2,7 @@
   "users": [
     {
       "id": "1",
-      "name": "John",
+      "name": "John Doe",
       "email": "john.doe@example.com",
       "bio": "Full-stack developer passionate about React and Node.js. Love building scalable web applications and mentoring junior developers.",
       "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
@@ -14,7 +14,7 @@
     },
     {
       "id": "2",
-      "name": "Sarah Wilson",
+      "name": "Sarah Willsmile",
       "email": "sarah.wilson@example.com",
       "bio": "UX Designer & Frontend Developer. Creating beautiful and accessible user experiences. React enthusiast and design systems advocate.",
       "avatar": "https://i.pravatar.cc/150?img=25",
@@ -26,7 +26,7 @@
     },
     {
       "id": "3",
-      "name": "Mike Ch545",
+      "name": "Mike Cherisone",
       "email": "mike.chen@example.com",
       "bio": "Backend Engineer specializing in microservices and cloud architecture. Always learning new technologies and sharing knowledge.",
       "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
